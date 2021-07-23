@@ -11655,7 +11655,7 @@ def InitializePanelSystem
       1),
   );
   panel_structure{"products"}=(
-    ("msgbox","products","products.box",0,screen.height,w(800),h(100),
+    ("msgbox","products","products.box",0,screen.height,screen.width - w(250),h(100),
       FGCOLOR,BRCOLOR,BGCOLOR,
       0,12,0,1,
       ("highlight","clickable","draggable","ontop=Z_PRODUCTMENU"),
